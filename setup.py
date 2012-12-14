@@ -7,9 +7,8 @@ VERSION_STRING = '1.5'
 setup(
     name = 'coda_network',
     version = VERSION_STRING,
-    packages = find_packages(),
     scripts = ['mini_proxy.py', ],
-
+    packages = ['coda_network', 'coda_network.ntlm', 'coda_network.oauth'],
     author = 'Cambridge Visual Networks',
     author_email = 'support@camvine.com',
     license = 'python',
